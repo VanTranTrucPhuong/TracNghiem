@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BT_Tuan4</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string-array name="spinner_default">
+        <item name="value1">Sao Thủy</item>
+        <item name="value2">Sao Kim</item>
+        <item name="value3">Sao Hỏa</item>
+        <item name="value4">Trái Đất</item>
+    </string-array>
+    <string-array name="spinner_default2">
+        <item name="value1">Sao Thủy</item>
+        <item name="value2">Sao Kim</item>
+        <item name="value3">Sao Hỏa</item>
+        <item name="value4">Trái Đất</item>
+    </string-array>
+    <string-array name="spinner_default3">
+        <item name="value1">Sao Thủy</item>
+        <item name="value2">Sao Kim</item>
+        <item name="value3">Sao Hỏa</item>
+        <item name="value4">Trái Đất</item>
+    </string-array>
+    <string-array name="spinner_default4">
+        <item name="value1">Sao Thủy</item>
+        <item name="value2">Sao Kim</item>
+        <item name="value3">Sao Hỏa</item>
+        <item name="value4">Trái Đất</item>
+    </string-array>
+
+</resources>

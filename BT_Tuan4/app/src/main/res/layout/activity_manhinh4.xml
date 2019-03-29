@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".manhinh4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginBottom="50px"
+        android:text="Câu 4 : Trả lời những câu hỏi sau ???" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20px"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:layout_marginBottom="20px"
+                android:text="hành tinh gần mặt trời nhất ?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:layout_marginBottom="20px"
+                android:text="hành tinh nhẹ nhất trong hệ mặt trời ?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginBottom="20px"
+                android:text="hành tinh gần mặt trời nhất ?" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginBottom="20px"
+                android:text="Phương thích màu gì nào ?" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="350px"
+            android:orientation="vertical">
+
+
+            <Spinner
+                android:id="@+id/spinA"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5px"
+                android:entries="@array/spinner_default" />
+
+            <Spinner
+                android:id="@+id/spinB"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5px"
+                android:entries="@array/spinner_default2" />
+
+            <Spinner
+                android:id="@+id/spinC"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginBottom="5px"
+                android:entries="@array/spinner_default3" />
+
+            <Spinner
+
+                android:id="@+id/spinD"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:entries="@array/spinner_default4" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/but4_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="350px"
+            android:background="#F7B601"
+            android:text="&lt;" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RESULT"
+            android:background="#F7B601"
+            android:width="350px"
+            android:layout_marginLeft="20px"/>
+
+        <Button
+            android:id="@+id/but4_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:width="350px"
+            android:background="#F7B601"
+            android:text="&gt;" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="43dp" />
+
+</LinearLayout>
+

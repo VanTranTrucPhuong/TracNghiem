@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".manhinh5">
+
+
+    <TextView
+        android:id="@+id/txt_caption1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Hãy chọn đúng sai cho câu hỏi dưới đây"
+
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:text="Phương ở Long An"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="52dp"
+            android:layout_weight="1"
+            android:checked="false"
+            android:switchTextAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textOff="SAI"
+            android:textOn="ĐÚNG"
+            tools:checked="false" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:text="Thảo ốm hơn Phương ?"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="77dp"
+            android:layout_height="53dp"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:text="Tường nặng hơn Khang ?"
+            android:textSize="20dp" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonprevious"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20px"
+            android:background="#F7B800"
+            android:text="&lt;" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="139dp"
+            android:layout_height="wrap_content"
+            android:background="#AECB23"
+            android:layout_marginRight="20px"
+            android:text="Result" />
+
+        <Button
+            android:id="@+id/buttonnext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F7B800"
+            android:text=" &gt; " />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+
+</LinearLayout>
